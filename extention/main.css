@@ -1,0 +1,69 @@
+html body {
+    background-color: rgba(189, 189, 189, 0.548);
+}
+
+.container {
+    min-width: 500px;
+    /* padding: 20px 10px; */
+
+}
+
+.img-send {
+    width: 15px;
+    height: 15px;
+}
+
+button {
+    width: 40px;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.send-btn {
+    background-color: lightgreen;
+    color: black;
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    left: 80%;
+    bottom: 40%;
+}
+
+input,
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* .leads-names {
+    position: absolute;
+    left: 40%;
+    bottom: 1%;
+} */
+
+/* .dashboard-wp {
+    display: flex;
+    flex-direction: column;
+} */
+
+.hide {
+    display: none;
+}
+
+.menu-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid darkgray;
+    outline: unset;
+}

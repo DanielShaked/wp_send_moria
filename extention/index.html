@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Leads !</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="menu">
+            <button class="menu-btn-dash">
+                <img src="./images/mail.png" alt="">
+            </button>
+            <button class="menu-btn-setup">
+                <img src="./images/wp.png" alt="">
+            </button>
+        </div>
+
+
+        <div class="setup" hidden>
+            <span> קדימה להגדיר :) </span>
+            <input class="leads-number" type="number" min="1" max="15" value="1">
+            <!-- <input type="" class="zoom-link" placeholder="zoom link..." /> -->
+            <!-- <input type="text" class="zoom-link" placeholder="zoom link..." /> -->
+            <button class="btn-setup">Setup</button>
+
+        </div>
+        <div class="dashboard-wp">
+        </div>
+        <div class="dashboard-mail" hidden>
+            <form class="send-first-gmail">
+                Enter evening date :
+                <input placeholder="enter the evening date"></input>
+                </label>
+                <button>Go !</button>
+            </form>
+        </div>
+
+        <div class="copy-container" hidden>
+            <textarea id="content">אז נראה אותך ? 😇</textarea>
+            <button class="copy-btn">Copy</button>
+        </div>
+
+    </div>
+    <script src="leads.js"></script>
+</body>
+
+</html>

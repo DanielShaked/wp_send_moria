@@ -1,0 +1,14 @@
+{
+    "name": "CaLeads",
+    "description": "Lets get easier life with the leads.",
+    "version":"1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup":"popup.html"
+    },
+    "icons": {
+        "16":"/images/icon-16x16.png",
+        "48":"/images/icon-48x48.png",
+        "128":"/images/icon-128x128.png"
+    }
+}

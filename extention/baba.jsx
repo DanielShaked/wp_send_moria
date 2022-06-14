@@ -1,0 +1,4 @@
+export function Babe() {
+
+    return <div class="uncover-choice choice selected"><div class="upper-background" style="background: center center / cover rgb(207, 211, 218);"></div><div class="lower-background"><div class="two-text-stripes-module"><div class="upper-stripe" style="background-color: rgb(207, 211, 218);"></div><div class="lower-stripe" style="background-color: rgb(207, 211, 218);"></div><div class="lower-dumy-btns-area"><div class="flex"><div class="simple-dumy-short-text" style="background-color: rgb(207, 211, 218);"></div><div class="simple-dumy-short-text" style="background-color: rgb(207, 211, 218);"></div></div><div class="dumy-circle" style="background-color: rgb(207, 211, 218);"></div></div></div></div></div>
+}
